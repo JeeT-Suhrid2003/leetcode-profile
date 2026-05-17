@@ -1,0 +1,4 @@
+
+bash
+
+mkdir -p /home/claude/leetcode-tracker/{data,.github/workflows,public}
