@@ -1,177 +1,33 @@
 {
   "meta": {
-    "username": "ejeet92",
-    "realName": "ejeet92",
-    "ranking": 2810977,
-    "lastUpdated": "2026-05-17T14:25:21.046Z"
+    "username": "Username",
+    "realName": "秦通",
+    "ranking": 758597,
+    "lastUpdated": "2026-05-18T03:37:07.258Z"
   },
   "stats": {
     "easy": {
-      "count": 20,
-      "submissions": 27
+      "count": 59,
+      "submissions": 129
     },
     "medium": {
-      "count": 19,
-      "submissions": 26
+      "count": 122,
+      "submissions": 366
     },
     "hard": {
-      "count": 2,
-      "submissions": 2
+      "count": 22,
+      "submissions": 76
     },
     "total": {
-      "count": 82,
-      "submissions": 110
+      "count": 203,
+      "submissions": 1142
     }
   },
   "streak": {
-    "current": 4,
-    "totalActiveDays": 4
+    "current": 0,
+    "totalActiveDays": 0
   },
-  "calendar": {
-    "2026-05-14": 1,
-    "2026-05-15": 4,
-    "2026-05-16": 6,
-    "2026-05-17": 6
-  },
-  "languageBreakdown": {
-    "python3": 9
-  },
-  "recentSolved": [
-    {
-      "id": "2005318240",
-      "title": "Jump Game II",
-      "slug": "jump-game-ii",
-      "lang": "python3",
-      "solvedAt": "2026-05-17T07:09:23.000Z",
-      "difficulty": "Medium",
-      "tags": [
-        "Array",
-        "Dynamic Programming",
-        "Greedy"
-      ],
-      "description": "<p>You are given a <strong>0-indexed</strong> array of integers <code>nums</code> of length <code>n</code>. You are initially positioned at&nbsp;index 0.</p>\n\n<p>Each element <code>nums[i]</code> represents the maximum length of a forward jump from index <code>i</code>. In other words, if you are at index <code>i</code>, you can jump to any index <code>(i + j)</code>&nbsp;where:</p>\n\n<ul>\n\t<li><code>0 &lt;= j &lt;= nums[i]</code> and</li>\n\t<li><code>i + j &lt; n</code></li>\n</ul>\n\n<p>Return <em>the minimum number of jumps to reach index </em><code>n - 1</code>. The test cases are generated such that you can reach index&nbsp;<code>n - 1</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [2,3,1,1,4]\n<strong>Output:</strong> 2\n<strong>Explanation:</strong> The minimum number of jumps to reach the last index is 2. Jump 1 step from index 0 to 1, then 3 steps to the last index.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [2,3,0,1,4]\n<strong>Output:</strong> 2\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>0 &lt;= nums[i] &lt;= 1000</code></li>\n\t<li>It&#39;s guaranteed that you can reach <code>nums[n - 1]</code>.</li>\n</ul>\n",
-      "leetcodeLink": "https://leetcode.com/problems/jump-game-ii/"
-    },
-    {
-      "id": "2005308160",
-      "title": "Jump Game III",
-      "slug": "jump-game-iii",
-      "lang": "python3",
-      "solvedAt": "2026-05-17T06:56:14.000Z",
-      "difficulty": "Medium",
-      "tags": [
-        "Array",
-        "Depth-First Search",
-        "Breadth-First Search"
-      ],
-      "description": "<p>Given an array of non-negative integers <code>arr</code>, you are initially positioned at <code>start</code>&nbsp;index of the array. When you are at index <code>i</code>, you can jump&nbsp;to <code>i + arr[i]</code> or <code>i - arr[i]</code>, check if you can reach&nbsp;<strong>any</strong> index with value 0.</p>\n\n<p>Notice that you can not jump outside of the array at any time.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> arr = [4,2,3,0,3,1,2], start = 5\n<strong>Output:</strong> true\n<strong>Explanation:</strong> \nAll possible ways to reach at index 3 with value 0 are: \nindex 5 -&gt; index 4 -&gt; index 1 -&gt; index 3 \nindex 5 -&gt; index 6 -&gt; index 4 -&gt; index 1 -&gt; index 3 \n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> arr = [4,2,3,0,3,1,2], start = 0\n<strong>Output:</strong> true \n<strong>Explanation: \n</strong>One possible way to reach at index 3 with value 0 is: \nindex 0 -&gt; index 4 -&gt; index 1 -&gt; index 3\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> arr = [3,0,2,1,2], start = 2\n<strong>Output:</strong> false\n<strong>Explanation: </strong>There is no way to reach at index 1 with value 0.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= arr.length &lt;= 5 * 10<sup>4</sup></code></li>\n\t<li><code>0 &lt;= arr[i] &lt;&nbsp;arr.length</code></li>\n\t<li><code>0 &lt;= start &lt; arr.length</code></li>\n</ul>\n",
-      "leetcodeLink": "https://leetcode.com/problems/jump-game-iii/"
-    },
-    {
-      "id": "2005291965",
-      "title": "Insert Delete GetRandom O(1)",
-      "slug": "insert-delete-getrandom-o1",
-      "lang": "python3",
-      "solvedAt": "2026-05-17T06:34:37.000Z",
-      "difficulty": "Medium",
-      "tags": [
-        "Array",
-        "Hash Table",
-        "Math",
-        "Design",
-        "Randomized"
-      ],
-      "description": "<p>Implement the <code>RandomizedSet</code> class:</p>\n\n<ul>\n\t<li><code>RandomizedSet()</code> Initializes the <code>RandomizedSet</code> object.</li>\n\t<li><code>bool insert(int val)</code> Inserts an item <code>val</code> into the set if not present. Returns <code>true</code> if the item was not present, <code>false</code> otherwise.</li>\n\t<li><code>bool remove(int val)</code> Removes an item <code>val</code> from the set if present. Returns <code>true</code> if the item was present, <code>false</code> otherwise.</li>\n\t<li><code>int getRandom()</code> Returns a random element from the current set of elements (it&#39;s guaranteed that at least one element exists when this method is called). Each element must have the <b>same probability</b> of being returned.</li>\n</ul>\n\n<p>You must implement the functions of the class such that each function works in&nbsp;<strong>average</strong>&nbsp;<code>O(1)</code>&nbsp;time complexity.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input</strong>\n[&quot;RandomizedSet&quot;, &quot;insert&quot;, &quot;remove&quot;, &quot;insert&quot;, &quot;getRandom&quot;, &quot;remove&quot;, &quot;insert&quot;, &quot;getRandom&quot;]\n[[], [1], [2], [2], [], [1], [2], []]\n<strong>Output</strong>\n[null, true, false, true, 2, true, false, 2]\n\n<strong>Explanation</strong>\nRandomizedSet randomizedSet = new RandomizedSet();\nrandomizedSet.insert(1); // Inserts 1 to the set. Returns true as 1 was inserted successfully.\nrandomizedSet.remove(2); // Returns false as 2 does not exist in the set.\nrandomizedSet.insert(2); // Inserts 2 to the set, returns true. Set now contains [1,2].\nrandomizedSet.getRandom(); // getRandom() should return either 1 or 2 randomly.\nrandomizedSet.remove(1); // Removes 1 from the set, returns true. Set now contains [2].\nrandomizedSet.insert(2); // 2 was already in the set, so return false.\nrandomizedSet.getRandom(); // Since 2 is the only number in the set, getRandom() will always return 2.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>-2<sup>31</sup> &lt;= val &lt;= 2<sup>31</sup> - 1</code></li>\n\t<li>At most <code>2 *&nbsp;</code><code>10<sup>5</sup></code> calls will be made to <code>insert</code>, <code>remove</code>, and <code>getRandom</code>.</li>\n\t<li>There will be <strong>at least one</strong> element in the data structure when <code>getRandom</code> is called.</li>\n</ul>\n",
-      "leetcodeLink": "https://leetcode.com/problems/insert-delete-getrandom-o1/"
-    },
-    {
-      "id": "2004268231",
-      "title": "Find Minimum in Rotated Sorted Array II",
-      "slug": "find-minimum-in-rotated-sorted-array-ii",
-      "lang": "python3",
-      "solvedAt": "2026-05-16T04:53:44.000Z",
-      "difficulty": "Hard",
-      "tags": [
-        "Array",
-        "Binary Search"
-      ],
-      "description": "<p>Suppose an array of length <code>n</code> sorted in ascending order is <strong>rotated</strong> between <code>1</code> and <code>n</code> times. For example, the array <code>nums = [0,1,4,4,5,6,7]</code> might become:</p>\n\n<ul>\n\t<li><code>[4,5,6,7,0,1,4]</code> if it was rotated <code>4</code> times.</li>\n\t<li><code>[0,1,4,4,5,6,7]</code> if it was rotated <code>7</code> times.</li>\n</ul>\n\n<p>Notice that <strong>rotating</strong> an array <code>[a[0], a[1], a[2], ..., a[n-1]]</code> 1 time results in the array <code>[a[n-1], a[0], a[1], a[2], ..., a[n-2]]</code>.</p>\n\n<p>Given the sorted rotated array <code>nums</code> that may contain <strong>duplicates</strong>, return <em>the minimum element of this array</em>.</p>\n\n<p>You must decrease the overall operation steps as much as possible.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> nums = [1,3,5]\n<strong>Output:</strong> 1\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> nums = [2,2,2,0,1]\n<strong>Output:</strong> 0\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == nums.length</code></li>\n\t<li><code>1 &lt;= n &lt;= 5000</code></li>\n\t<li><code>-5000 &lt;= nums[i] &lt;= 5000</code></li>\n\t<li><code>nums</code> is sorted and rotated between <code>1</code> and <code>n</code> times.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong>Follow up:</strong> This problem is similar to&nbsp;<a href=\"https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/\" target=\"_blank\">Find Minimum in Rotated Sorted Array</a>, but&nbsp;<code>nums</code> may contain <strong>duplicates</strong>. Would this affect the runtime complexity? How and why?</p>\n\n<p>&nbsp;</p>\n",
-      "leetcodeLink": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/"
-    },
-    {
-      "id": "2004263955",
-      "title": "H-Index",
-      "slug": "h-index",
-      "lang": "python3",
-      "solvedAt": "2026-05-16T04:46:53.000Z",
-      "difficulty": "Medium",
-      "tags": [
-        "Array",
-        "Sorting",
-        "Counting Sort"
-      ],
-      "description": "<p>Given an array of integers <code>citations</code> where <code>citations[i]</code> is the number of citations a researcher received for their <code>i<sup>th</sup></code> paper, return <em>the researcher&#39;s h-index</em>.</p>\n\n<p>According to the <a href=\"https://en.wikipedia.org/wiki/H-index\" target=\"_blank\">definition of h-index on Wikipedia</a>: The h-index is defined as the maximum value of <code>h</code> such that the given researcher has published at least <code>h</code> papers that have each been cited at least <code>h</code> times.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> citations = [3,0,6,1,5]\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> [3,0,6,1,5] means the researcher has 5 papers in total and each of them had received 3, 0, 6, 1, 5 citations respectively.\nSince the researcher has 3 papers with at least 3 citations each and the remaining two with no more than 3 citations each, their h-index is 3.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> citations = [1,3,1]\n<strong>Output:</strong> 1\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == citations.length</code></li>\n\t<li><code>1 &lt;= n &lt;= 5000</code></li>\n\t<li><code>0 &lt;= citations[i] &lt;= 1000</code></li>\n</ul>\n",
-      "leetcodeLink": "https://leetcode.com/problems/h-index/"
-    },
-    {
-      "id": "2003519819",
-      "title": "Find Minimum in Rotated Sorted Array",
-      "slug": "find-minimum-in-rotated-sorted-array",
-      "lang": "python3",
-      "solvedAt": "2026-05-15T05:42:45.000Z",
-      "difficulty": "Medium",
-      "tags": [
-        "Array",
-        "Binary Search"
-      ],
-      "description": "<p>Suppose an array of length <code>n</code> sorted in ascending order is <strong>rotated</strong> between <code>1</code> and <code>n</code> times. For example, the array <code>nums = [0,1,2,4,5,6,7]</code> might become:</p>\n\n<ul>\n\t<li><code>[4,5,6,7,0,1,2]</code> if it was rotated <code>4</code> times.</li>\n\t<li><code>[0,1,2,4,5,6,7]</code> if it was rotated <code>7</code> times.</li>\n</ul>\n\n<p>Notice that <strong>rotating</strong> an array <code>[a[0], a[1], a[2], ..., a[n-1]]</code> 1 time results in the array <code>[a[n-1], a[0], a[1], a[2], ..., a[n-2]]</code>.</p>\n\n<p>Given the sorted rotated array <code>nums</code> of <strong>unique</strong> elements, return <em>the minimum element of this array</em>.</p>\n\n<p>You must write an algorithm that runs in&nbsp;<code>O(log n) time</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [3,4,5,1,2]\n<strong>Output:</strong> 1\n<strong>Explanation:</strong> The original array was [1,2,3,4,5] rotated 3 times.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [4,5,6,7,0,1,2]\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> The original array was [0,1,2,4,5,6,7] and it was rotated 4 times.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [11,13,15,17]\n<strong>Output:</strong> 11\n<strong>Explanation:</strong> The original array was [11,13,15,17] and it was rotated 4 times. \n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == nums.length</code></li>\n\t<li><code>1 &lt;= n &lt;= 5000</code></li>\n\t<li><code>-5000 &lt;= nums[i] &lt;= 5000</code></li>\n\t<li>All the integers of <code>nums</code> are <strong>unique</strong>.</li>\n\t<li><code>nums</code> is sorted and rotated between <code>1</code> and <code>n</code> times.</li>\n</ul>\n",
-      "leetcodeLink": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/"
-    },
-    {
-      "id": "2003508270",
-      "title": "Best Time to Buy and Sell Stock",
-      "slug": "best-time-to-buy-and-sell-stock",
-      "lang": "python3",
-      "solvedAt": "2026-05-15T05:27:20.000Z",
-      "difficulty": "Easy",
-      "tags": [
-        "Array",
-        "Dynamic Programming"
-      ],
-      "description": "<p>You are given an array <code>prices</code> where <code>prices[i]</code> is the price of a given stock on the <code>i<sup>th</sup></code> day.</p>\n\n<p>You want to maximize your profit by choosing a <strong>single day</strong> to buy one stock and choosing a <strong>different day in the future</strong> to sell that stock.</p>\n\n<p>Return <em>the maximum profit you can achieve from this transaction</em>. If you cannot achieve any profit, return <code>0</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> prices = [7,1,5,3,6,4]\n<strong>Output:</strong> 5\n<strong>Explanation:</strong> Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.\nNote that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> prices = [7,6,4,3,1]\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> In this case, no transactions are done and the max profit = 0.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= prices.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>0 &lt;= prices[i] &lt;= 10<sup>4</sup></code></li>\n</ul>\n",
-      "leetcodeLink": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
-    },
-    {
-      "id": "2003491843",
-      "title": "Jump Game",
-      "slug": "jump-game",
-      "lang": "python3",
-      "solvedAt": "2026-05-15T05:04:41.000Z",
-      "difficulty": "Medium",
-      "tags": [
-        "Array",
-        "Dynamic Programming",
-        "Greedy"
-      ],
-      "description": "<p>You are given an integer array <code>nums</code>. You are initially positioned at the array&#39;s <strong>first index</strong>, and each element in the array represents your maximum jump length at that position.</p>\n\n<p>Return <code>true</code><em> if you can reach the last index, or </em><code>false</code><em> otherwise</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [2,3,1,1,4]\n<strong>Output:</strong> true\n<strong>Explanation:</strong> Jump 1 step from index 0 to 1, then 3 steps to the last index.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [3,2,1,0,4]\n<strong>Output:</strong> false\n<strong>Explanation:</strong> You will always arrive at index 3 no matter what. Its maximum jump length is 0, which makes it impossible to reach the last index.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>0 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>\n</ul>\n",
-      "leetcodeLink": "https://leetcode.com/problems/jump-game/"
-    },
-    {
-      "id": "2002569058",
-      "title": "Majority Element",
-      "slug": "majority-element",
-      "lang": "python3",
-      "solvedAt": "2026-05-14T02:38:31.000Z",
-      "difficulty": "Easy",
-      "tags": [
-        "Array",
-        "Hash Table",
-        "Divide and Conquer",
-        "Sorting",
-        "Counting"
-      ],
-      "description": "<p>Given an array <code>nums</code> of size <code>n</code>, return <em>the majority element</em>.</p>\n\n<p>The majority element is the element that appears more than <code>&lfloor;n / 2&rfloor;</code> times. You may assume that the majority element always exists in the array.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> nums = [3,2,3]\n<strong>Output:</strong> 3\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> nums = [2,2,1,1,1,2,2]\n<strong>Output:</strong> 2\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == nums.length</code></li>\n\t<li><code>1 &lt;= n &lt;= 5 * 10<sup>4</sup></code></li>\n\t<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>\n\t<li>The input is generated such that a majority element will exist in the array.</li>\n</ul>\n\n<p>&nbsp;</p>\n<strong>Follow-up:</strong> Could you solve the problem in linear time and in <code>O(1)</code> space?",
-      "leetcodeLink": "https://leetcode.com/problems/majority-element/"
-    }
-  ]
+  "calendar": {},
+  "languageBreakdown": {},
+  "recentSolved": []
 }
