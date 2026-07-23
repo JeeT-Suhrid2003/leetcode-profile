@@ -2,17 +2,17 @@
   "meta": {
     "username": "Username",
     "realName": "秦通",
-    "ranking": 796957,
-    "lastUpdated": "2026-07-22T02:32:39.801Z"
+    "ranking": 797671,
+    "lastUpdated": "2026-07-23T02:37:58.972Z"
   },
   "stats": {
     "easy": {
-      "count": 59,
-      "submissions": 129
+      "count": 58,
+      "submissions": 123
     },
     "medium": {
-      "count": 122,
-      "submissions": 366
+      "count": 123,
+      "submissions": 372
     },
     "hard": {
       "count": 22,
